@@ -4,7 +4,26 @@ public class MemberApp {
 
 	public static void main(String[] args) {
 
-		
+		// 정우성
+		Member m1 = new Member();
+		m1.setName("정우성");
+		m1.setId("jws");
+		m1.setPoint(50000);
+
+		// 유재석
+		Member m2 = new Member();
+		m2.setName("유재석");
+		m2.setId("yjs");
+		m2.setPoint(30000);
+
+		// 이효리
+		Member m3 = new Member("lhr", "이효리", 40000);
+
+		// 출력
+		m1.showInfo();
+		m2.showInfo();
+		m3.showInfo();
+
 	}
 
 }
