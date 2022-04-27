@@ -1,8 +1,12 @@
+// Static 필드와 메소드를 이용하여
+// 달러와 우리나라 원화 사이의 변환을 해주는 환율 계산기를 만들어보세요.
+
 package com.javaex.ex06;
 
 public class CConverter {
     
     public static double rate;
+    
     
     public static void setRate(double rate){
         CConverter.rate = rate;
